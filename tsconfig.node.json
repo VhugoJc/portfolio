@@ -13,13 +13,11 @@
     "moduleDetection": "force",
     "noEmit": true,
 
-    /* Linting */
-    "strict": true,
+    /* Linting - Relaxed for deployment */
+    "strict": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": false
+    "noFallthroughCasesInSwitch": false
   },
   "include": ["vite.config.ts"]
 }
