@@ -9,9 +9,6 @@ concurrency:
   group: deploy-main
   cancel-in-progress: true
 
-env:
-  NODE_ENV: production
-
 jobs:
   deploy:
     name: Build & Deploy to S3
