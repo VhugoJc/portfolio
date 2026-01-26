@@ -1,0 +1,246 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hey, I'm",
+      "name": "Victor Hugo Jiménez",
+      "title": "I build reliable cloud systems that scale with confidence",
+      "description": "Site Reliability Engineer & AWS Community Leader specializing in AWS, Docker, OpenSearch, S3, Lambda, and system observability.",
+      "cta": "Get In Touch",
+      "resume": "Download Resume"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I'm a Site Reliability Engineer with 2+ years of hands-on experience in cloud infrastructure and observability. Currently working at Encora, I'm focused on supporting AWS-based systems, implementing monitoring solutions, and continuously learning reliability engineering best practices. My journey includes web development experience and a strong foundation in cloud technologies.",
+      "certifications": [
+        {
+          "name": "AWS Certified Solutions Architect – Associate",
+          "issuer": "Amazon Web Services",
+          "date": "Dec 4, 2024",
+          "credential": "SAA-C03",
+          "credlyUrl": "https://www.credly.com/badges/05d52385-abd6-4247-912c-6a9ff179b56b/linked_in_profile"
+        },
+        {
+          "name": "AWS Certified Developer – Associate",
+          "issuer": "Amazon Web Services",
+          "date": "Oct 12, 2023",
+          "credential": "DVA-C02",
+          "credlyUrl": "https://www.credly.com/badges/3ddec930-8301-4553-a3d8-ab45268ade99/linked_in_profile"
+        },
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "issuer": "Amazon Web Services",
+          "date": "Jun 12, 2023",
+          "credential": "CLF-C01",
+          "credlyUrl": "https://www.credly.com/badges/df492ca0-4767-455e-89b9-13a386ae3ada/linked_in_profile"
+        }
+      ],
+      "leadership": [
+        "AWS User Group Leader",
+        "Member of Encora HCU Cloud Leadership",
+        "Encora Internship Program Mentor"
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "jobs": [
+        {
+          "company": "Encora",
+          "position": "Site Reliability Engineer",
+          "period": "2022 - Present",
+          "location": "Remote",
+          "description": "Supporting cloud infrastructure and reliability engineering for AWS-based systems. Working with Spring Boot applications, React frontends, and implementing observability solutions.",
+          "achievements": [
+            "Supporting production AWS environments with Lambda, EC2, and S3",
+            "Implementing monitoring and alerting using Grafana and Kibana",
+            "Working with EKS clusters and OpenSearch for log management",
+            "Contributing to system reliability and incident response procedures"
+          ]
+        },
+        {
+          "company": "Various Companies",
+          "position": "Web Developer Intern",
+          "period": "2021 - 2022",
+          "location": "Remote/Hybrid",
+          "description": "Gained foundational web development experience working with modern frontend and backend technologies, focusing on full-stack application development.",
+          "achievements": [
+            "Developed applications using Vue.js, React, and React Native",
+            "Built backend services with Node.js and Express",
+            "Worked with MongoDB for database management",
+            "Deployed applications using cloud services like EvenNode",
+            "Collaborated using Git and GitHub for version control"
+          ]
+        },
+        {
+          "company": "Cisco",
+          "position": "Incubation Talent Intern",
+          "period": "2021",
+          "location": "Remote",
+          "description": "Participated in Cisco's talent development program, completing networking fundamentals training and developing professional skills.",
+          "achievements": [
+            "Completed basic CCNA coursework and networking concepts",
+            "Participated in soft skills training and professional development",
+            "Gained exposure to enterprise networking technologies",
+            "Developed foundation in network troubleshooting and analysis"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "items": []
+    },
+    "blog": {
+      "title": "Latest Blog Posts",
+      "posts": [
+        {
+          "title": "Cómo crear tu cuenta de AWS: Guía rápida para principiantes",
+          "excerpt": "Una guía completa paso a paso para crear tu primera cuenta de AWS, configurar la seguridad básica y comenzar tu journey en la nube.",
+          "date": "2024-12-15",
+          "readTime": "5 min read",
+          "tags": ["AWS", "Principiantes", "Getting Started"],
+          "url": "https://builder.aws.com/content/35okYRbDUSV0btjKQPt4N0YiOr2/como-crear-tu-cuenta-de-aws-guia-rapida-para-principiantes",
+          "featured": true
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "description": "I'm always interested in discussing new opportunities, learning from experienced professionals, and connecting with the cloud and SRE community. Let's connect!",
+      "email": "victorhujimenez@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/victorhugo-jc/",
+      "github": "https://github.com/VhugoJc/",
+      "awsBuilder": "https://builder.aws.com/community/@hugojimenez",
+      "location": "San Luis Potosí, Mexico",
+      "availability": "Open to new opportunities"
+    }
+  },
+  "es": {
+    "nav": {
+      "about": "Acerca de",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "blog": "Blog",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "greeting": "Hola, soy",
+      "name": "Victor Hugo Jiménez",
+      "title": "Construyo sistemas cloud confiables que escalan con confianza",
+      "description": "Site Reliability Engineer y Líder de Comunidad AWS especializado en AWS, Docker, OpenSearch, S3, Lambda, y observabilidad de sistemas.",
+      "cta": "Contactar",
+      "resume": "Descargar CV"
+    },
+    "about": {
+      "title": "Acerca de Mí",
+      "description": "Soy un Site Reliability Engineer con 2+ años de experiencia práctica en infraestructura cloud y observabilidad. Actualmente trabajando en Encora, me enfoco en dar soporte a sistemas basados en AWS, implementar soluciones de monitoreo y aprender continuamente las mejores prácticas de ingeniería de confiabilidad. Mi trayectoria incluye experiencia en desarrollo web y una sólida base en tecnologías cloud.",
+      "certifications": [
+        {
+          "name": "AWS Certified Solutions Architect – Associate",
+          "issuer": "Amazon Web Services",
+          "date": "4 Dic, 2024",
+          "credential": "SAA-C03",
+          "credlyUrl": "https://www.credly.com/badges/05d52385-abd6-4247-912c-6a9ff179b56b/linked_in_profile"
+        },
+        {
+          "name": "AWS Certified Developer – Associate",
+          "issuer": "Amazon Web Services",
+          "date": "12 Oct, 2023",
+          "credential": "DVA-C02",
+          "credlyUrl": "https://www.credly.com/badges/3ddec930-8301-4553-a3d8-ab45268ade99/linked_in_profile"
+        },
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "issuer": "Amazon Web Services",
+          "date": "12 Jun, 2023",
+          "credential": "CLF-C01",
+          "credlyUrl": "https://www.credly.com/badges/df492ca0-4767-455e-89b9-13a386ae3ada/linked_in_profile"
+        }
+      ],
+      "leadership": [
+        "Líder de AWS User Group",
+        "Miembro de Encora HCU Cloud Leadership",
+        "Mentor del Programa de Internship de Encora"
+      ]
+    },
+    "experience": {
+      "title": "Experiencia",
+      "jobs": [
+        {
+          "company": "Encora",
+          "position": "Site Reliability Engineer",
+          "period": "2022 - Presente",
+          "location": "Remoto",
+          "description": "Dando soporte a infraestructura cloud e ingeniería de confiabilidad para sistemas basados en AWS. Trabajando con aplicaciones Spring Boot, frontends React e implementando soluciones de observabilidad.",
+          "achievements": [
+            "Soporte a entornos AWS de producción con Lambda, EC2 y S3",
+            "Implementación de monitoreo y alertas usando Grafana y Kibana",
+            "Trabajo con clusters EKS y OpenSearch para gestión de logs",
+            "Contribución a procedimientos de confiabilidad y respuesta a incidentes"
+          ]
+        },
+        {
+          "company": "Varias Empresas",
+          "position": "Desarrollador Web Intern",
+          "period": "2021 - 2022",
+          "location": "Remoto/Híbrido",
+          "description": "Adquirí experiencia fundamental en desarrollo web trabajando con tecnologías modernas de frontend y backend, enfocándome en el desarrollo de aplicaciones full-stack.",
+          "achievements": [
+            "Desarrollé aplicaciones usando Vue.js, React y React Native",
+            "Construí servicios backend con Node.js y Express",
+            "Trabajé con MongoDB para gestión de bases de datos",
+            "Desplegué aplicaciones usando servicios cloud como EvenNode",
+            "Colaboré usando Git y GitHub para control de versiones"
+          ]
+        },
+        {
+          "company": "Cisco",
+          "position": "Incubation Talent Intern",
+          "period": "2021",
+          "location": "Remoto",
+          "description": "Participé en el programa de desarrollo de talento de Cisco, completando entrenamiento en fundamentos de redes y desarrollando habilidades profesionales.",
+          "achievements": [
+            "Completé el curso básico de CCNA y conceptos de redes",
+            "Participé en entrenamiento de habilidades blandas y desarrollo profesional",
+            "Obtuve exposición a tecnologías de redes empresariales",
+            "Desarrollé bases en resolución de problemas y análisis de redes"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Proyectos Destacados",
+      "items": []
+    },
+    "blog": {
+      "title": "Últimos Posts del Blog",
+      "posts": [
+        {
+          "title": "Cómo crear tu cuenta de AWS: Guía rápida para principiantes",
+          "excerpt": "Una guía completa paso a paso para crear tu primera cuenta de AWS, configurar la seguridad básica y comenzar tu journey en la nube.",
+          "date": "15 Dic, 2024",
+          "readTime": "5 min lectura",
+          "tags": ["AWS", "Principiantes", "Getting Started"],
+          "url": "https://builder.aws.com/content/35okYRbDUSV0btjKQPt4N0YiOr2/como-crear-tu-cuenta-de-aws-guia-rapida-para-principiantes",
+          "featured": true
+        }
+      ]
+    },
+    "contact": {
+      "title": "Ponte en Contacto",
+      "description": "Siempre estoy interesado en discutir nuevas oportunidades, aprender de profesionales experimentados y conectar con la comunidad cloud y SRE. ¡Conectemos!",
+      "email": "victorhujimenez@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/victorhugo-jc/",
+      "github": "https://github.com/VhugoJc/",
+      "awsBuilder": "https://builder.aws.com/community/@hugojimenez",
+      "location": "San Luis Potosí, México",
+      "availability": "Abierto a nuevas oportunidades"
+    }
+  }
+}
