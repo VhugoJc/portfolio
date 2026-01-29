@@ -1,27 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useScrollAnimation, fadeInUp, scaleIn, getStaggerDelay } from '../hooks/useScrollAnimation';
 
 const Projects: React.FC = () => {
   const { t } = useLanguage();
-  const [filter, setFilter] = useState('all');
   const projects = t('projects.items') || [];
 
   const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation(0.3);
   const { elementRef: gridRef, isVisible: gridVisible } = useScrollAnimation(0.1);
   const { elementRef: ctaRef, isVisible: ctaVisible } = useScrollAnimation(0.3);
 
-  const filteredProjects = Array.isArray(projects) ? 
-    filter === 'featured' 
-      ? projects.filter((project: any) => project.featured)
-      : projects
-    : [];
-
   return (
     <section id="projects" className="section-padding bg-dark-800/30">
       <div className="container-max">
         <div className="max-w-7xl mx-auto">
-          {/* Section Title with filter buttons */}
+          {/* Section Title */}
           <div 
             ref={titleRef as React.RefObject<HTMLDivElement>}
             className={fadeInUp(titleVisible)}
@@ -31,30 +24,6 @@ const Projects: React.FC = () => {
                 {t('projects.title')}
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-primary-400 to-cyan-400 mx-auto mb-8"></div>
-              
-              {/* Filter Buttons with hover effects */}
-              <div className="flex flex-wrap justify-center gap-4">
-                <button
-                  onClick={() => setFilter('all')}
-                  className={`px-6 py-2 rounded-full font-medium transition-all duration-300 hover:scale-105 ${
-                    filter === 'all'
-                      ? 'bg-primary-600 text-white shadow-lg shadow-primary-600/30'
-                      : 'bg-dark-700 text-gray-300 hover:bg-dark-600 hover:text-white'
-                  }`}
-                >
-                  All Projects
-                </button>
-                <button
-                  onClick={() => setFilter('featured')}
-                  className={`px-6 py-2 rounded-full font-medium transition-all duration-300 hover:scale-105 ${
-                    filter === 'featured'
-                      ? 'bg-primary-600 text-white shadow-lg shadow-primary-600/30'
-                      : 'bg-dark-700 text-gray-300 hover:bg-dark-600 hover:text-white'
-                  }`}
-                >
-                  Featured
-                </button>
-              </div>
             </div>
           </div>
 
@@ -63,7 +32,7 @@ const Projects: React.FC = () => {
             ref={gridRef as React.RefObject<HTMLDivElement>}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            {filteredProjects.map((project: any, index: number) => (
+            {Array.isArray(projects) && projects.map((project: any, index: number) => (
               <div 
                 key={index} 
                 className={`group transform transition-all duration-700 hover:scale-105 ${
@@ -78,15 +47,6 @@ const Projects: React.FC = () => {
                 <div className="card h-full flex flex-col hover:shadow-2xl hover:shadow-primary-500/10 transition-all duration-500 relative overflow-hidden">
                   {/* Animated background gradient on hover */}
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-600/0 to-cyan-600/0 group-hover:from-primary-600/5 group-hover:to-cyan-600/5 transition-all duration-500 rounded-xl"></div>
-                  
-                  {/* Project Badge */}
-                  {project.featured && (
-                    <div className="absolute top-4 right-4 z-10">
-                      <div className="bg-gradient-to-r from-primary-400 to-cyan-400 text-dark-900 px-3 py-1 rounded-full text-xs font-bold animate-pulse">
-                        Featured
-                      </div>
-                    </div>
-                  )}
 
                   <div className="relative z-10 flex flex-col h-full">
                     {/* Project Header */}
@@ -177,14 +137,6 @@ const Projects: React.FC = () => {
                           </a>
                         )}
                       </div>
-
-                      {project.featured && (
-                        <div className="flex items-center space-x-1 text-yellow-400 animate-pulse">
-                          <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                          </svg>
-                        </div>
-                      )}
                     </div>
                   </div>
                 </div>

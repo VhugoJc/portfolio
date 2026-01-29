@@ -52,11 +52,22 @@ const Blog: React.FC = () => {
                 <div className="relative z-10">
                   <div className="flex flex-col lg:flex-row gap-8">
                     <div className="lg:w-1/3">
-                      <div className="aspect-video bg-gradient-to-br from-primary-600/20 to-cyan-600/20 rounded-lg flex items-center justify-center hover:from-primary-600/30 hover:to-cyan-600/30 transition-all duration-500 group-hover:scale-105">
-                        <svg className="w-16 h-16 text-primary-400 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H15" />
-                        </svg>
-                      </div>
+                      {posts[0].image ? (
+                        <div className="aspect-video rounded-lg overflow-hidden group-hover:scale-105 transition-transform duration-500">
+                          <img
+                            src={posts[0].image}
+                            alt={posts[0].title}
+                            className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
+                            loading="lazy"
+                          />
+                        </div>
+                      ) : (
+                        <div className="aspect-video bg-gradient-to-br from-primary-600/20 to-cyan-600/20 rounded-lg flex items-center justify-center hover:from-primary-600/30 hover:to-cyan-600/30 transition-all duration-500 group-hover:scale-105">
+                          <svg className="w-16 h-16 text-primary-400 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H15" />
+                          </svg>
+                        </div>
+                      )}
                     </div>
                     <div className="lg:w-2/3">
                       <div className="flex items-center space-x-4 mb-4">
@@ -143,11 +154,22 @@ const Blog: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-600/0 to-cyan-600/0 group-hover:from-primary-600/5 group-hover:to-cyan-600/5 transition-all duration-500 rounded-xl"></div>
                     
                     <div className="relative z-10">
-                      <div className="aspect-video bg-gradient-to-br from-primary-600/10 to-cyan-600/10 rounded-lg flex items-center justify-center mb-6 group-hover:from-primary-600/20 group-hover:to-cyan-600/20 transition-all duration-500">
-                        <svg className="w-12 h-12 text-primary-400/70 group-hover:text-primary-400 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                        </svg>
-                      </div>
+                      {post.image ? (
+                        <div className="aspect-video rounded-lg overflow-hidden mb-6 group-hover:scale-105 transition-transform duration-500">
+                          <img
+                            src={post.image}
+                            alt={post.title}
+                            className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
+                            loading="lazy"
+                          />
+                        </div>
+                      ) : (
+                        <div className="aspect-video bg-gradient-to-br from-primary-600/10 to-cyan-600/10 rounded-lg flex items-center justify-center mb-6 group-hover:from-primary-600/20 group-hover:to-cyan-600/20 transition-all duration-500">
+                          <svg className="w-12 h-12 text-primary-400/70 group-hover:text-primary-400 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                        </div>
+                      )}
                       
                       <div className="flex items-center space-x-3 mb-4 text-sm text-gray-400">
                         <div className="flex items-center space-x-1">
