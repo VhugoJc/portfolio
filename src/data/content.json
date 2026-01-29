@@ -93,20 +93,56 @@
       ]
     },
     "projects": {
-      "title": "Featured Projects",
-      "items": []
+      "title": "Projects",
+      "items": [
+        {
+          "title": "Multi-Cloud Node.js Deployment with Packer",
+          "description": "Automated image building and deployment of Node.js applications with Nginx reverse proxy across AWS and Azure using HashiCorp Packer. Demonstrates multi-cloud infrastructure automation and consistent deployment patterns.",
+          "technologies": ["Packer", "Node.js", "Nginx", "AWS", "Azure", "Multi-Cloud", "DevOps"],
+          "highlights": [
+            "Multi-cloud image building with HashiCorp Packer",
+            "Node.js application deployment with Nginx reverse proxy",
+            "Consistent infrastructure across AWS and Azure platforms",
+            "Automated build pipelines for scalable deployments",
+            "Cloud-agnostic deployment strategies and best practices"
+          ],
+          "github": "https://github.com/VhugoJc/packer-node-nginx"
+        },
+        {
+          "title": "MEAN Stack Todo App - AWS Infrastructure",
+          "description": "Complete AWS infrastructure provisioning for a MEAN stack todo application using Terraform. Features modular architecture with MongoDB database, EC2 instances, VPC configuration, and security groups.",
+          "technologies": ["Terraform", "AWS", "MongoDB", "EC2", "VPC", "Infrastructure as Code"],
+          "highlights": [
+            "Modular Terraform architecture for scalable infrastructure",
+            "Complete AWS VPC setup with public and private subnets",
+            "EC2 instances optimized for MEAN stack applications",
+            "MongoDB database configuration and security implementation",
+            "Infrastructure as Code best practices and documentation"
+          ],
+          "github": "https://github.com/VhugoJc/mean-todo-infra"
+        }
+      ]
     },
     "blog": {
       "title": "Latest Blog Posts",
       "posts": [
         {
-          "title": "Cómo crear tu cuenta de AWS: Guía rápida para principiantes",
-          "excerpt": "Una guía completa paso a paso para crear tu primera cuenta de AWS, configurar la seguridad básica y comenzar tu journey en la nube.",
+          "title": "Deploy a Static Website to AWS S3 using GitHub Actions",
+          "excerpt": "Complete tutorial on how to automate the deployment of a static website to AWS S3 using GitHub Actions, including CI/CD configuration and DevOps best practices.",
+          "date": "2025-01-29",
+          "readTime": "8 min read",
+          "tags": ["AWS", "S3", "GitHub Actions", "CI/CD", "DevOps"],
+          "image": "https://prod-assets.cosmic.aws.dev/a/38wXIJwO3c5nmC6vSVZXMcPrVCf/blog.webp",
+          "url": "https://builder.aws.com/content/38wPjvwk1CwJTU65s0FvQEljHUZ/deploy-de-un-sitio-web-estatico-en-aws-s3-usando-github-actions"
+        },
+        {
+          "title": "How to create your AWS account: Quick guide for beginners",
+          "excerpt": "A complete step-by-step guide to create your first AWS account, configure basic security, and start your cloud journey.",
           "date": "2024-12-15",
           "readTime": "5 min read",
-          "tags": ["AWS", "Principiantes", "Getting Started"],
-          "url": "https://builder.aws.com/content/35okYRbDUSV0btjKQPt4N0YiOr2/como-crear-tu-cuenta-de-aws-guia-rapida-para-principiantes",
-          "featured": true
+          "tags": ["AWS", "Beginners", "Getting Started"],
+          "image": "https://prod-assets.cosmic.aws.dev/a/38wWdeABys4WJi2MkjRygWF96g7/blog.webp",
+          "url": "https://builder.aws.com/content/35okYRbDUSV0btjKQPt4N0YiOr2/como-crear-tu-cuenta-de-aws-guia-rapida-para-principiantes"
         }
       ]
     },
@@ -215,20 +251,56 @@
       ]
     },
     "projects": {
-      "title": "Proyectos Destacados",
-      "items": []
+      "title": "Proyectos",
+      "items": [
+        {
+          "title": "Despliegue Multi-Cloud Node.js con Packer",
+          "description": "Construcción automatizada de imágenes y despliegue de aplicaciones Node.js con proxy reverso Nginx en AWS y Azure usando HashiCorp Packer. Demuestra automatización de infraestructura multi-cloud y patrones de despliegue consistentes.",
+          "technologies": ["Packer", "Node.js", "Nginx", "AWS", "Azure", "Multi-Cloud", "DevOps"],
+          "highlights": [
+            "Construcción de imágenes multi-cloud con HashiCorp Packer",
+            "Despliegue de aplicaciones Node.js con proxy reverso Nginx",
+            "Infraestructura consistente entre plataformas AWS y Azure",
+            "Pipelines de construcción automatizados para despliegues escalables",
+            "Estrategias de despliegue agnósticas a la nube y mejores prácticas"
+          ],
+          "github": "https://github.com/VhugoJc/packer-node-nginx"
+        },
+        {
+          "title": "Aplicación Todo MEAN Stack - Infraestructura AWS",
+          "description": "Aprovisionamiento completo de infraestructura AWS para una aplicación todo MEAN stack usando Terraform. Cuenta con arquitectura modular con base de datos MongoDB, instancias EC2, configuración VPC y grupos de seguridad.",
+          "technologies": ["Terraform", "AWS", "MongoDB", "EC2", "VPC", "Infrastructure as Code"],
+          "highlights": [
+            "Arquitectura modular de Terraform para infraestructura escalable",
+            "Configuración completa de AWS VPC con subredes públicas y privadas",
+            "Instancias EC2 optimizadas para aplicaciones MEAN stack",
+            "Configuración de base de datos MongoDB e implementación de seguridad",
+            "Mejores prácticas de Infrastructure as Code y documentación"
+          ],
+          "github": "https://github.com/VhugoJc/mean-todo-infra"
+        }
+      ]
     },
     "blog": {
       "title": "Últimos Posts del Blog",
       "posts": [
+        {
+          "title": "Deploy de un sitio web estático en AWS S3 usando GitHub Actions",
+          "excerpt": "Tutorial completo sobre cómo automatizar el despliegue de un sitio web estático a AWS S3 usando GitHub Actions, incluyendo configuración de CI/CD y mejores prácticas de DevOps.",
+          "date": "29 Ene, 2025",
+          "readTime": "8 min lectura",
+          "tags": ["AWS", "S3", "GitHub Actions", "CI/CD", "DevOps"],
+          "image": "https://prod-assets.cosmic.aws.dev/a/38wXIJwO3c5nmC6vSVZXMcPrVCf/blog.webp",
+          "url": "https://builder.aws.com/content/38wPjvwk1CwJTU65s0FvQEljHUZ/deploy-de-un-sitio-web-estatico-en-aws-s3-usando-github-actions"
+        },
         {
           "title": "Cómo crear tu cuenta de AWS: Guía rápida para principiantes",
           "excerpt": "Una guía completa paso a paso para crear tu primera cuenta de AWS, configurar la seguridad básica y comenzar tu journey en la nube.",
           "date": "15 Dic, 2024",
           "readTime": "5 min lectura",
           "tags": ["AWS", "Principiantes", "Getting Started"],
-          "url": "https://builder.aws.com/content/35okYRbDUSV0btjKQPt4N0YiOr2/como-crear-tu-cuenta-de-aws-guia-rapida-para-principiantes",
-          "featured": true
+          "image": "https://prod-assets.cosmic.aws.dev/a/38wWdeABys4WJi2MkjRygWF96g7/blog.webp",
+          "url": "https://builder.aws.com/content/35okYRbDUSV0btjKQPt4N0YiOr2/como-crear-tu-cuenta-de-aws-guia-rapida-para-principiantes"
         }
       ]
     },
